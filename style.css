@@ -1,0 +1,52 @@
+body{
+    background-color: #646456;
+}
+
+*{
+    font-family: 'Roboto Slab', serif;
+}
+.Title{
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: #161616;
+}
+.InputWidth,
+.InputHeight{
+    background-color: #ffff88;
+    color: #161616;
+    font-weight: 500;
+    text-align: center;
+    
+}
+.InputWidth:hover,
+.InputHeight:hover{
+    transform: scale(1.04);
+    transition: 0.1s;
+}
+.ButtonPerimeter,
+.ButtonArea{
+    background-color: #ffff88;
+    color: #161616;
+    font-weight: 500;
+    width: 160px;
+    margin: auto;
+    margin-top: 16px;
+}
+.ButtonPerimeter:hover,
+.ButtonArea:hover{
+    background-color: #dddd66;
+    transform: scale(1.04);
+    transition: 0.1s;
+}
+.Interact{
+    width: 256px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.Output{
+    text-align: center;
+    font-size: 48px;
+    color: #161616;
+}
